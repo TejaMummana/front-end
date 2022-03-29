@@ -1,0 +1,41 @@
+<h1 class="nav" style="background-color:rgb(194, 16, 31); color:antiquewhite;">
+  𝐇𝐎𝐒𝐏𝐈𝐓𝐀𝐋 𝐒𝐄𝐑𝐕𝐈𝐂𝐄𝐒 𝟐𝟒/𝟕
+</h1>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active"style="background-color:rgb(245, 243, 243); color:blue;" aria-current="page" routerLink="/home">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" style="background-color:rgb(245, 243, 243); color:blue;"routerLink="/show-docter-info">Show Docters Information</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link"style="background-color:rgb(245, 243, 243); color:blue;" routerLink="/show-patient-info">Show Patients Information</a>
+  </li>
+</ul>
+<form [formGroup]="submitForm" (ngSubmit)="submit()">
+  <div class="card">
+    <div class="mb-3">
+      <label for="exampleInputPatientName" class="form-label">Patient Name:</label>
+      <input formControlName="patientName" type="text" class="form-control" id="exampleInputPatientName">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputMobile" class="form-label">Mobile Number</label>
+      <input formControlName="mobile" type="text" class="form-control" id="exampleInputMobile">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputMobile" class="form-label">Appointment Date</label>
+      <input formControlName="appointmentDate" type='date' class="form-control" />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputMobile" class="form-label">Appointment time</label>
+      <input formControlName="appointmentTime" type='time' class="form-control" />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputMobile" class="form-label">Select the doctor</label>
+      <select formControlName="selectedDocter">
+        <option *ngFor="let docter of docterObj" [ngValue]="docter.docterName">{{docter.docterName}}</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>

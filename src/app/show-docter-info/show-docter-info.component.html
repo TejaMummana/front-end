@@ -1,0 +1,41 @@
+<h1 class="nav" style="background-color:rgb(194, 16, 31); color:antiquewhite;">
+  𝐇𝐎𝐒𝐏𝐈𝐓𝐀𝐋 𝐒𝐄𝐑𝐕𝐈𝐂𝐄𝐒 𝟐𝟒/𝟕
+</h1>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active"style="background-color:rgb(245, 243, 243); color:blue;" aria-current="page" routerLink="/home">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link"style="background-color:rgb(245, 243, 243); color:blue;" routerLink="/show-docter-info">Show Docters Information</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" style="background-color:rgb(245, 243, 243); color:blue;" routerLink="/show-patient-info">Show Patients Information</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" style="background-color:rgb(245, 243, 243); color:blue;" routerLink="/booking-appointment">New Appointment</a>
+  </li>
+</ul>
+<input type="text" [(ngModel)]="docterName" (input)="Search()" placeholder="Search Docter Name" />
+
+<table class="table mt-3">
+  <thead>
+    <tr>
+      <th scope="col">Doctor ID</th>
+      <th scope="col">Doctor Name</th>
+      <th scope="col">Mobile</th>
+      <th scope="col">Age</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Specialization</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of docterObj">
+      <td>{{row.id}}</td>
+      <td>{{row.docterName}}</td>
+      <td>{{row.mobile}}</td>
+      <td>{{row.age}}</td>
+      <td>{{row.gender}}</td>
+      <td>{{row.specialization}}</td>
+    </tr>
+  </tbody>
+</table>

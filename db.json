@@ -1,0 +1,269 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "docterName": "Peter",
+      "mobile": 9246383638,
+      "age": 56,
+      "gender": "Male",
+      "specialization": "Dentist"
+    },
+    {
+      "id": 2,
+      "docterName": "Jhon",
+      "mobile": 9836451298,
+      "age": 22,
+      "gender": "Male",
+      "specialization": "Cardiologist"
+    },
+    {
+      "id": 3,
+      "docterName": "Andira",
+      "mobile": 8435636453,
+      "age": 34,
+      "gender": "Female",
+      "specialization": "Eye Specialist"
+    },
+    {
+      "id": 4,
+      "docterName": "Thomas",
+      "mobile": 7346373323,
+      "age": 56,
+      "gender": "Male",
+      "specialization": "Neurologist"
+    },
+    {
+      "id": 5,
+      "docterName": "test",
+      "mobile": 2385256,
+      "age": 243,
+      "gender": "Male",
+      "specialization": "jukgrhasfr"
+    }
+  ],
+  "docters": [
+    {
+      "id": 1
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "admin"
+    }
+  ],
+  "submitPatient": [
+    {
+      "id": 1,
+      "patientName": "vishnu",
+      "mobile": 83747264273,
+      "appointmentDate": "2022-03-23",
+      "appointmentTime": "16:12",
+      "selectedDocter": "John"
+    },
+    {
+      "id": 2,
+      "patientName": "sai",
+      "mobile": 9989913050,
+      "appointmentDate": "2022-03-24",
+      "appointmentTime": "20:05",
+      "selectedDocter": "Peter"
+    },
+    {
+      "id": 3,
+      "patientName": "praveen",
+      "mobile": 9951462971,
+      "appointmentDate": "2022-03-25",
+      "appointmentTime": "14:18",
+      "selectedDocter": "Peter"
+    },
+    {
+      "id": 4,
+      "patientName": "suresh",
+      "mobile": 1234567890,
+      "appointmentDate": "2022-03-19",
+      "appointmentTime": "01:13",
+      "selectedDocter": "Sumith"
+    },
+    {
+      "id": 5,
+      "patientName": "abc",
+      "mobile": 1234567890,
+      "appointmentDate": "2022-03-25",
+      "appointmentTime": "11:18",
+      "selectedDocter": "Sumith"
+    },
+    {
+      "id": 6,
+      "patientName": "sandheep",
+      "mobile": 82737264274,
+      "appointmentDate": "2022-03-26",
+      "appointmentTime": "22:05",
+      "selectedDocter": "Andria"
+    },
+    {
+      "id": 7,
+      "patientName": "sharuk",
+      "mobile": 99999999999,
+      "appointmentDate": "2022-03-25",
+      "appointmentTime": "12:06",
+      "selectedDocter": "Andria"
+    },
+    {
+      "patientName": "prakash",
+      "mobile": 837473647346,
+      "appointmentDate": "2022-03-25",
+      "appointmentTime": "13:30",
+      "selectedDocter": "Andria",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "patientName": "shravan kumar",
+      "mobile": 9765654436,
+      "appointmentDate": "2022-04-01",
+      "appointmentTime": "13:36",
+      "selectedDocter": "Peter"
+    },
+    {
+      "id": 10,
+      "patientName": "ankur",
+      "mobile": 8888888888,
+      "appointmentDate": "2022-03-27",
+      "appointmentTime": "13:30",
+      "selectedDocter": "Thomas"
+    },
+    {
+      "id": 11,
+      "patientName": "akhil",
+      "mobile": 82736254634,
+      "appointmentDate": "2022-03-25",
+      "appointmentTime": "14:35",
+      "selectedDocter": "Peter"
+    },
+    {
+      "patientName": "xyz",
+      "mobile": 732864625,
+      "appointmentDate": "2022-03-25",
+      "appointmentTime": "16:43",
+      "selectedDocter": "Sumith",
+      "id": 12
+    },
+    {
+      "patientName": "example",
+      "mobile": 0,
+      "appointmentDate": "2022-03-24",
+      "appointmentTime": "23:06",
+      "selectedDocter": "Andria",
+      "id": 13
+    },
+    {
+      "patientName": "vishnusai",
+      "mobile": 84375653745,
+      "appointmentDate": "2022-03-25",
+      "appointmentTime": "15:30",
+      "selectedDocter": "andria",
+      "id": 14
+    },
+    {
+      "patientName": "vishnusai",
+      "mobile": 91831636235,
+      "appointmentDate": "2022-03-25",
+      "appointmentTime": "15:01",
+      "selectedDocter": "andria",
+      "id": 15
+    },
+    {
+      "patientName": "vishnusai",
+      "mobile": 9137724645,
+      "appointmentDate": "2022-03-26",
+      "appointmentTime": "15:02",
+      "selectedDocter": "peter",
+      "id": 16
+    },
+    {
+      "patientName": "vishnusai",
+      "mobile": 83724726522,
+      "appointmentDate": "2022-03-26",
+      "appointmentTime": "17:07",
+      "selectedDocter": "peter",
+      "id": 17
+    },
+    {
+      "patientName": "Jhon",
+      "mobile": 834753452,
+      "appointmentDate": "2022-03-25",
+      "appointmentTime": "16:08",
+      "selectedDocter": "peter",
+      "id": 18
+    },
+    {
+      "patientName": "sairam",
+      "mobile": 3647263471,
+      "appointmentDate": "2022-03-25",
+      "appointmentTime": "17:12",
+      "selectedDocter": "andria",
+      "id": 19
+    },
+    {
+      "patientName": "vishnusai",
+      "mobile": 837427535762,
+      "appointmentDate": "2022-03-26",
+      "appointmentTime": "18:21",
+      "selectedDocter": "jhon",
+      "id": 20
+    },
+    {
+      "patientName": "peter",
+      "mobile": 384765193,
+      "appointmentDate": "2022-03-25",
+      "appointmentTime": "19:24",
+      "selectedDocter": "peter",
+      "id": 21
+    },
+    {
+      "patientName": "vishnusai",
+      "mobile": 723164363,
+      "appointmentDate": "2022-03-26",
+      "appointmentTime": "17:27",
+      "selectedDocter": "peter",
+      "id": 22
+    },
+    {
+      "patientName": "sairam",
+      "mobile": 1214353466,
+      "appointmentDate": "2022-03-25",
+      "appointmentTime": "17:30",
+      "selectedDocter": "peter",
+      "id": 23
+    },
+    {
+      "patientName": "vishnusai",
+      "mobile": 7365745628,
+      "appointmentDate": "2022-03-26",
+      "appointmentTime": "21:42",
+      "selectedDocter": "andria",
+      "id": 24
+    }
+  ],
+  "signupUser": [
+    {
+      "fullname": "vishnusai",
+      "email": "vishnusaieruvala@gmail.com",
+      "password": "12345",
+      "mobile": "9989913050",
+      "id": 1
+    },
+    {
+      "fullname": "Vishnusai",
+      "email": "eruvalavishnusai@gmail.com",
+      "password": "12345",
+      "mobile": 9989913050,
+      "id": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
